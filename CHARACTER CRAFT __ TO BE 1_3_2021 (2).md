@@ -93,6 +93,8 @@ Unaffiliated Skills
 - Inspiration
 - Proficiency Bonus
 - Passive Wisdom (Perception)
+- Other proficiences and languages
+- Features & Traits 
 
 Attacks and Spellcasting 
 - Weapon Name
@@ -113,9 +115,7 @@ Personality
 - Bonds
 - Flaws
 
-- Other proficiences and languages
-- Features & Traits 
-
+Second Page
 - Character Appearance
 - Character Backstory
 - Allies & Organizations
