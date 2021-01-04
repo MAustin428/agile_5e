@@ -11,8 +11,8 @@ To solve the above problems with a physical character sheet, we want a digital c
 
 all relevant character attributes and retrieve them at a later date. 
 In future iterations, we can add logic to automate calculations for derived fields.
+The current sheet looks like this:  
 
-The current sheet looks like this:
 ![image](https://user-images.githubusercontent.com/59585235/103493306-88f93f00-4dfe-11eb-8f08-ba54210a3434.png)
 
 We will create a webapp that will act as a persistent, digital character sheet.
