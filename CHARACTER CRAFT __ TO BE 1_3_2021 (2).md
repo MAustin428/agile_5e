@@ -13,19 +13,20 @@ all relevant character attributes and retrieve them at a later date.
 In future iterations, we can add logic to automate calculations for derived fields.
 
 The current sheet looks like this:
-![5E Character Sheet ](![image](https://user-images.githubusercontent.com/59585235/103493306-88f93f00-4dfe-11eb-8f08-ba54210a3434.png)
+![image](https://user-images.githubusercontent.com/59585235/103493306-88f93f00-4dfe-11eb-8f08-ba54210a3434.png)
 
-We will create a webpage that will act as a persistent, digital character sheet.
+We will create a webapp that will act as a persistent, digital character sheet.
 
 ## Assumptions
 Maintaining fifth edition character sheet (not other versions, or other games) will support most players for the foreseeable future. 
 Lists of existing character data will meet reasonable data size expectations.
-Will only need to support material from base D&D lists (Player Handbook and DM guide).
+Will only support material from base D&D lists (Player Handbook and Dungeon Master's Guide).
 Will not support multiclassing features. 
 
 ## High Level Requirements
 Supported fields:
-Type to be decided by technical team. 
+Datatype to be decided by technical team. 
+Titles are for guidance  only- for example, Abilities is not a field, but the title of the character sheet section. 
 
 Abilities 
 - Strength 
@@ -70,7 +71,7 @@ Skills
 - Stealth
 - Survival
 
-Saving Throws
+Saving Throws 
 - Strength 
 - Dexterity
 - Constitution
@@ -78,16 +79,57 @@ Saving Throws
 - Wisdom
 - Charisma
 
-Hit Dice
-Total Health Points
+Health 
+- Armor Class 
+- Initiative
+- Speed
+- Current Hit Points
+- Temporary Hit Points
+- Hit Dice
+- Total Hit Dice
+- Death Saves (3 success radios, 3 failure radios)
 
-Death Saves (count to 3)
-Failures (count to 3)
+Unaffiliated Skills 
+- Inspiration
+- Proficiency Bonus
+- Passive Wisdom (Perception)
+
+Attacks and Spellcasting 
+- Weapon Name
+- Atk Bonus
+- Damage/Type 
+
+Equipment
+- PP
+- GP
+- EP
+- CP
+- GP
+- Blank Field for additional equipment
+
+Personality 
+- Personality Traits
+- Ideals
+- Bonds
+- Flaws
+
+- Other proficiences and languages
+- Features & Traits 
+
+- Character Appearance
+- Character Backstory
+- Allies & Organizations
+- Additional Features & Traits
+- Treasure
+- Symbol and Symbol Name 
 
 ## Open Questions
 Support spellcasting? 
-Support math for future iteration?
-Support Runequest? (closed, off-topic)
+Support math for future iteration? (re:datatypes)  
+Support Runequest? (closed, off-topic)  
+How does technical want to present possible extra fields to user (see Attacks and Spellcasting, Equipment)? 
+How does technical want to handle symbol and symbol name
+
 
 
 
