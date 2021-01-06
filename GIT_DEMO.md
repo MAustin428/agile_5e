@@ -1,22 +1,20 @@
-# General idea
+# General Idea
+The main repository, or repo, is where our program lives. You copy (fork) this repo to make your own changes in branches, then send back your changes to be checked and added to the main repo. 
 main repository (upstream) < your fork (origin) < branches < commits
 
 # Configure Git Settings
-git config --global core.editor "vim"  
+git config --global core.editor "vim"  (you may prefer Nano for a more informative writing environment)
 git config --global user.name "Your Name"  
 git config --global user.email yourgmail@gmail.com  
 
 # Set Up GitHub
-## generate ssh keys
+## Generate SSH keys
 ssh-keygen -t ed25519 -C "yourgmail@gmail.com"
+## Add SSH public SSH key to your GitHub account.
+Fork the main repository.
+Do Stuff on Your Machine!
 
-## add ssh public ssh key to your github account
-
-## fork the main repository
-
-# Do Stuff on Your Machine!
-
-## clone your fork onto your machine (this implicitly defines a remote named origin)
+## Clone Your Fork onto Your Machine (this implicitly defines a remote named origin)
 git clone git@github.com:hirja/agile_5e.git
 
 ## set up the upstream remote
