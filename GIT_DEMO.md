@@ -1,42 +1,49 @@
-# General Idea
-The main repository, or repo, is where our program lives. You copy (fork) this repo to make your own changes in branches, then send back your changes to be checked and added to the main repo. 
-main repository (upstream) < your fork (origin) < branches < commits
+#### General idea
+The main repository, or repo, is where our program lives. You copy (fork) this repo to make your own changes in branches, then send your changes back to be checked and added to the main repo. 
+Main repository (upstream) < your fork (origin) < branches < commits
 
-# Configure Git Settings
+#### Configure Git settings
+Git is for your local machine, GitHub is where we collaborate with pull requests and issue tracking.
 git config --global core.editor "vim"  (you may prefer Nano for a more informative writing environment)
 git config --global user.name "Your Name"  
 git config --global user.email yourgmail@gmail.com  
 
-# Set Up GitHub
-## Generate SSH keys
+#### Generate SSH keys
+An SSH key provides security between your local machine and GitHub.
 ssh-keygen -t ed25519 -C "yourgmail@gmail.com"
-## Add SSH public SSH key to your GitHub account.
-Fork the main repository.
-Do Stuff on Your Machine!
 
-## Clone Your Fork onto Your Machine (this implicitly defines a remote named origin)
-git clone git@github.com:hirja/agile_5e.git
+#### Add SSH key to your GitHub account.
+Now you have a secure connection between your local machine and GitHub.
 
-## set up the upstream remote
-git remote add upstream git@github.com:MAustin428/agile_5e.git
+#### Clone your fork onto your machine 
+This implicitly defines a remote named origin.
+git clone git@github.com:githubusername/agile_5e.git
 
-## create a new branch
+#### Set up the upstream remote
+This links origin with main on GitHub.
+git remote add upstream git@github.com:MainLocation/agile_5e.git
+
+#### Create a new branch
+This creates a branch of your origin fork that you can edit locally. Branch early and often.
 git checkout -b jake_git_demo
 
-## edit something
+#### Edit something
+Touch creates a new, empty file, and add adds any new files to the index.
 touch git_demo
 add git_demo
 
-## create a commit
+#### Create a commit
+This adds your changes to your local repo.
 git commit
 
-# Add Your Work to the Main Repository
-
-## check to make sure you have the latest changes
+#### Add your work to the local repository
+Before you add your work, check to make sure you have the latest changes from upstream. 
 git fetch upstream main (this will fetch upstream changes)
 git rebase upstream/main (this will fetch upstream changes, including your own)
 
-## push changes to your fork
+#### Push changes to your fork
+This adds your local changes to your GitHub repository.
 git push origin jake_git_demo
 
-## create a pull request to add your changes to the main repository (this will allow the repo owner to double-check your work before adding it to main)
+#### Create a pull request 
+This proposes the addition of your changes to the main repository. The repo owner will double-check your work before adding it to main.
