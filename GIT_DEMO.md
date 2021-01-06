@@ -45,7 +45,7 @@ This adds your changes to your local repo.
 
 #### Add your work to the local repository
 Before you add your work, check to make sure you have the latest changes from upstream. 
->git fetch upstream main (this will fetch upstream changes)
+>git fetch upstream main (this will fetch upstream changes) OR  
 >git rebase upstream/main (this will fetch upstream changes, including your own)
 
 #### Push changes to your fork
