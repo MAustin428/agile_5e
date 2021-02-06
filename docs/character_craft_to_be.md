@@ -15,7 +15,7 @@ The current sheet looks like this:
 
 ![image](https://user-images.githubusercontent.com/59585235/103493306-88f93f00-4dfe-11eb-8f08-ba54210a3434.png)
 
-We will create a webapp that will act as a persistent, digital character sheet.
+We will create a web page that will act as a persistent, digital character sheet.
 
 ## Assumptions
 Maintaining fifth edition character sheet (not other versions, or other games) will support most players for the foreseeable future. 
