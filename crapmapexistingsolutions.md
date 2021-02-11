@@ -1,12 +1,16 @@
-# Existing Solutions
+# Existing Solutions (v2/9/21)
 This document outlines existing solutions to CrapMap technical problems. The goal is to get to testing as quickly and cheaply as possible, and improve iteratively from there.
-##Hardware solution
-https://www.adafruit.com/product/746?gclid=EAIaIQobChMI4eLCn5CN4QIVSL7ACh0UUADREAYYASABEgLOs_D_BwE
 
-This links from site in software solution.
 
 Casing and collar attachment
 I suggest we buy/find a cheap but weatherproof dog collar attachment (invisible fence, behavior buzzer,etc) and hack together a test casing and attachment.
+
+##Hardware and Costs 
+ESP8266 dev board $4-$5/per chip (without shipping)
+
+Raspberry Pi 4 (between $40 and $80, depends on RAM)
+
+Accelerometer sensor (~5$)
 
 ##Software solution
 A Google Maps API solution for Raspberry Pi 3.
@@ -31,3 +35,18 @@ Ways to grow and monetize: smart house/shopping integration, dog health, collars
 ##Legal issues (patents, wireless technology, reuse of existing technology, registering a company, liability, etc.)? Many other things?
 LLC is no problem, just costs some money- see legalzoom, for example.
 Other questions TBD.
+
+##References
+https://www.adafruit.com/product/746?gclid=EAIaIQobChMI4eLCn5CN4QIVSL7ACh0UUADREAYYASABEgLOs_D_BwE
+
+Bluetooth LE Sensor Nodes to Raspberry Pi WiFi Bridge
+https://learn.adafruit.com/bluetooth-le-broadcastnet-sensor-node-raspberry-pi-wifi-bridge
+
+Raspberry Pi with Multiple Wireless Sensors
+https://www.raspberrypi.org/forums/viewtopic.php?f=37&t=209565&p=1335845&hilit=raspberry+pi+with+multiple+wireless+sensors#p1339041
+
+ESP8266 Microcontroller
+http://esp8266.net/ for ESP8266 datasheet 
+
+NodeMcu (recommended dev kit from pi forums)
+http://www.nodemcu.com/index_en.html
