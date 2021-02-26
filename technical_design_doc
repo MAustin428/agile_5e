@@ -1,2 +1,116 @@
 The purpose of this document is to define the systems, toolkits, and codebases to be used in the agile_5e character sheet design. The scope of this document is to fully define the technical specifications for this project. As the project evolves, the specifications desribed within may no longer be relevant, and this document may be appended and replaced by other documents, in part, or in full.
 
+The purpose of this project is to create a character sheet which allows the character to record and retrieve data, usually strings or other text. 
+
+
+
+
+
+High Level Requirements
+
+Supported fields: Datatype to be decided by technical team. Titles are for guidance only- for example, Abilities is not a field, but the title of the character sheet section.
+
+Abilities
+
+    Strength
+    Dexterity
+    Constitution
+    Intelligence
+    Wisdom
+    Charisma
+
+Character Description
+
+    Character Name
+    Class
+    Level
+    Background
+    Race
+    Alignment
+    Experience Points
+    Age
+    Height
+    Weight
+    Eyes
+    Skin
+    Hair
+
+Skills
+
+    Acrobatics
+    Animal Handling
+    Arcana
+    Athletics
+    Deception
+    History
+    Insight
+    Intimidation
+    Investigation
+    Medicine
+    Nature
+    Perception
+    Performance
+    Persuasion
+    Religion
+    Sleight of Hand
+    Stealth
+    Survival
+
+Saving Throws
+
+    Strength
+    Dexterity
+    Constitution
+    Intelligence
+    Wisdom
+    Charisma
+
+Health
+
+    Armor Class
+    Initiative
+    Speed
+    Current Hit Points
+    Temporary Hit Points
+    Hit Dice
+    Total Hit Dice
+    Death Saves (3 success radios, 3 failure radios)
+
+Unaffiliated Skills
+
+    Inspiration
+    Proficiency Bonus
+    Passive Wisdom (Perception)
+    Other proficiences and languages
+    Features & Traits
+
+Attacks and Spellcasting
+
+    Weapon Name
+    Atk Bonus
+    Damage/Type
+
+Equipment
+
+    PP
+    GP
+    EP
+    CP
+    GP
+    Blank Field for additional equipment
+
+Personality
+
+    Personality Traits
+    Ideals
+    Bonds
+    Flaws
+
+Second Page
+
+    Character Appearance
+    Character Backstory
+    Allies & Organizations
+    Additional Features & Traits
+    Treasure
+    Symbol and Symbol Name
